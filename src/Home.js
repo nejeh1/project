@@ -6,7 +6,7 @@ function Home() {
     <div className="home">
       <div className="firsthalf">
         <h1 className="title">
-          <span>Upgrade</span> Your Capabilities And<br />Skills To Get <span>More</span> <br></br><span>Opportunities</span>
+          <span>Upgrade</span> Your Capabilities And<br/>Skills To Get <span>More</span> <br></br><span>Opportunities</span>
         </h1>
         <p className="para">We prepare the best and latest courses to<br />enhance your professional capabilities</p>
         <div className="buttons">
@@ -29,7 +29,7 @@ function Home() {
         </div>
       </div>
       <div className='secondhalf'>
-      <img src='https://www.gta.net/hs-fs/hubfs/Business_Desktop_Wireless-Internet.png?width=640&height=652&name=Business_Desktop_Wireless-Internet.png' alt='mg' style={{}}></img>
+      <img src='https://www.gta.net/hs-fs/hubfs/Business_Desktop_Wireless-Internet.png?width=640&height=652&name=Business_Desktop_Wireless-Internet.png' alt='mg' className='imagehome'></img>
       </div>
     </div>
   );

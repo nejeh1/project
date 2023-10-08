@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow: hidden;
 }
 .bg-body-tertiary{
   background-color:transparent;
@@ -10,6 +11,7 @@
   justify-content: space-evenly;
   background-image: url(https://i0.wp.com/www.cssscript.com/wp-content/uploads/2017/12/Animated-Particles-Background.png?fit=499%2C386&ssl=1);
   flex-wrap: wrap;
+  padding-bottom: 100px;
 }
 .card{
   margin-top: 20px;
@@ -30,6 +32,12 @@
 }
 .card h1{
   margin-left: 20px;
+}
+.starprice{
+display: flex;
+justify-content: end;
+flex-direction: column;
+align-items: end;
 }
 .App-logo {
   height: 40vmin;
@@ -65,3 +73,58 @@
     transform: rotate(360deg);
   }
 }
+.mlk{
+  display: flex;
+  justify-content: space-around;
+  margin-left: -20px;
+}
+.mlk p{
+  font-size:larger;
+}
+.teachers{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:rgba(243, 243, 243, 0.618);
+  border-radius: 15px;
+  width: 300px;
+  height: 350px;
+
+}
+.teachers img{
+  align-self: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  
+}
+.teacherbox{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.titlenm{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.signin{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.signin input{
+  width: 400px;
+  border-radius: 10px;
+}
+.signin button {
+  color: rgb(251, 251, 251);
+  background-color: purple;
+  border-radius: 10px;
+  width: 400px;
+}
+@media only screen and (max-width: 750px) {.imagehome{display: none;}}
+@media only screen and (max-width: 750px) {.teacherbox{flex-direction: column;}}
